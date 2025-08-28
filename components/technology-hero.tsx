@@ -17,8 +17,8 @@ export function TechnologyHero() {
                 Built on Trust.
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
-                Blockchain-powered security meets humanitarian values. Our technology puts privacy, dignity, and user
-                control at the center of digital identity.
+                Advanced security meets humanitarian values. Our technology puts privacy, dignity, and user control at
+                the center of digital identity.
               </p>
             </div>
 
@@ -51,7 +51,6 @@ export function TechnologyHero() {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8 flex items-center justify-center">
               <div className="grid grid-cols-3 gap-4 w-full h-full">
-                {/* Blockchain visualization */}
                 {Array.from({ length: 9 }).map((_, i) => (
                   <div
                     key={i}
@@ -62,10 +61,9 @@ export function TechnologyHero() {
                 ))}
               </div>
             </div>
-            {/* Floating tech indicators */}
             <div className="absolute -top-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-lg">
               <Shield className="inline h-4 w-4 mr-1" />
-              Blockchain Secured
+              Secure & Private
             </div>
             <div className="absolute -bottom-4 -left-4 bg-secondary text-secondary-foreground px-4 py-2 rounded-full text-sm font-medium shadow-lg">
               <Zap className="inline h-4 w-4 mr-1" />

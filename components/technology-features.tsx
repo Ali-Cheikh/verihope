@@ -4,10 +4,10 @@ export function TechnologyFeatures() {
   const features = [
     {
       icon: Shield,
-      title: "Blockchain Security",
-      description: "Immutable, tamper-proof identity records",
+      title: "Advanced Security",
+      description: "Military-grade encryption protects your identity",
       details:
-        "Built on enterprise-grade blockchain infrastructure that ensures your identity data cannot be altered, deleted, or compromised by bad actors.",
+        "Built on enterprise-grade security infrastructure that ensures your identity data cannot be altered, deleted, or compromised by bad actors.",
       color: "text-primary",
       bgColor: "bg-primary/10",
     },
@@ -43,13 +43,13 @@ export function TechnologyFeatures() {
   const technicalSpecs = [
     {
       icon: Database,
-      title: "Decentralized Storage",
-      description: "Your data isn't stored in one place",
+      title: "Distributed Storage",
+      description: "Your data is protected across multiple locations",
     },
     {
       icon: Users,
-      title: "Multi-Signature Security",
-      description: "Multiple keys required for access",
+      title: "Multi-Factor Security",
+      description: "Multiple verification methods for access",
     },
     {
       icon: CheckCircle,

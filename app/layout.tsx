@@ -5,31 +5,29 @@ import { GeistMono } from "geist/font/mono"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "VeriHope - Digital Identity for Refugees | Secure Blockchain ID Wallet",
+  title: "VeriHope - Digital Identity for Refugees | Secure Digital ID Platform",
   description:
-    "VeriHope provides secure, blockchain-based digital identity solutions for refugees and humanitarian organizations. Restore dignity through portable, private digital ID.",
-  keywords: "digital identity, refugees, blockchain, humanitarian aid, secure ID, portable identity, VeriHope",
+    "VeriHope provides secure, portable digital identity solutions for refugees and humanitarian organizations. Restore dignity through private, user-controlled digital ID.",
+  keywords: "digital identity, refugees, humanitarian aid, secure ID, portable identity, VeriHope",
   authors: [{ name: "VeriHope" }],
   creator: "VeriHope",
   publisher: "VeriHope",
   openGraph: {
     title: "VeriHope - Digital Identity for Refugees",
-    description:
-      "Secure, blockchain-based digital identity solutions empowering refugees and enabling efficient aid delivery.",
+    description: "Secure, portable digital identity solutions empowering refugees and enabling efficient aid delivery.",
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "VeriHope - Digital Identity for Refugees",
-    description:
-      "Secure, blockchain-based digital identity solutions empowering refugees and enabling efficient aid delivery.",
+    description: "Secure, portable digital identity solutions empowering refugees and enabling efficient aid delivery.",
   },
   robots: {
     index: true,
     follow: true,
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({

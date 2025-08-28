@@ -12,7 +12,7 @@ export function AboutTeam() {
     {
       name: "Marcus Rodriguez",
       role: "CTO & Co-Founder",
-      bio: "Blockchain security expert, former lead engineer at major identity platform",
+      bio: "Security expert, former lead engineer at major identity platform",
       image: "/professional-man-cto-blockchain-engineer.png",
     },
     {

@@ -65,7 +65,7 @@ export function TechnologySecurity() {
                   <Server className="h-6 w-6 text-primary" />
                 </div>
                 <div className="space-y-2 flex-1">
-                  <h3 className="text-xl font-semibold text-foreground">Decentralized Infrastructure</h3>
+                  <h3 className="text-xl font-semibold text-foreground">Distributed Infrastructure</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     No single point of failure. Your identity data is distributed across a secure network, ensuring
                     availability even in crisis situations.
@@ -93,8 +93,8 @@ export function TechnologySecurity() {
                     <div className="text-xs text-muted-foreground">TLS encryption, certificate pinning</div>
                   </div>
                   <div className="bg-accent/10 rounded-lg p-4 border-l-4 border-accent">
-                    <div className="text-sm font-medium text-foreground">Blockchain Level</div>
-                    <div className="text-xs text-muted-foreground">Immutable records, consensus validation</div>
+                    <div className="text-sm font-medium text-foreground">Data Level</div>
+                    <div className="text-xs text-muted-foreground">End-to-end encryption, secure storage</div>
                   </div>
                   <div className="bg-primary/10 rounded-lg p-4 border-l-4 border-primary">
                     <div className="text-sm font-medium text-foreground">Application Level</div>

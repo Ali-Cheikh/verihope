@@ -11,14 +11,14 @@ export function SolutionSection() {
     },
     {
       icon: Smartphone,
-      title: "Secure Digital Wallet",
+      title: "Secure Digital Identity",
       description: "Mobile app stores encrypted credentials with user control",
       color: "text-secondary",
     },
     {
       icon: QrCode,
       title: "QR Code Verification",
-      description: "Zero-Knowledge Proofs enable instant, private verification",
+      description: "Privacy-preserving verification enables instant, secure access",
       color: "text-accent",
     },
     {
@@ -37,7 +37,8 @@ export function SolutionSection() {
             How VeriHope Works: Security, Privacy, and Efficiency.
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto text-pretty">
-            Our blockchain-based solution restores dignity while ensuring the highest levels of security and privacy.
+            Our secure digital identity solution restores dignity while ensuring the highest levels of security and
+            privacy.
           </p>
         </div>
 

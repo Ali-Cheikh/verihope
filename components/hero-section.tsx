@@ -13,7 +13,7 @@ export function HeroSection() {
                 Identity is a Human Right. We Help Restore It.
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed text-pretty">
-                VeriHope is a secure, blockchain-based digital ID wallet that empowers refugees and enables aid
+                VeriHope is a secure, portable digital identity platform that empowers refugees and enables aid
                 organizations to deliver services with trust and efficiency.
               </p>
             </div>
@@ -38,7 +38,7 @@ export function HeroSection() {
             <div className="flex items-center gap-6 pt-4">
               <div className="flex items-center gap-2">
                 <Shield className="h-5 w-5 text-primary" />
-                <span className="text-sm text-muted-foreground">Blockchain Secured</span>
+                <span className="text-sm text-muted-foreground">Secure & Private</span>
               </div>
               <div className="flex items-center gap-2">
                 <Users className="h-5 w-5 text-secondary" />

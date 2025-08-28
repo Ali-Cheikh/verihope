@@ -7,7 +7,7 @@ export function IndividualsBenefits() {
       title: "Security",
       description: "Your data stays private and secure",
       details:
-        "Advanced encryption and blockchain technology ensure your personal information remains protected and under your complete control.",
+        "Advanced encryption and secure technology ensure your personal information remains protected and under your complete control.",
       color: "text-primary",
       bgColor: "bg-primary/10",
     },

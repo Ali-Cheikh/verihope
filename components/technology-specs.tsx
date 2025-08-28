@@ -1,23 +1,23 @@
-import { Code, Cpu, Globe, Zap } from "lucide-react"
+import { Cpu, Globe, Shield, Lock } from "lucide-react"
 
 export function TechnologySpecs() {
   const specs = [
     {
-      category: "Blockchain",
+      category: "Security",
       items: [
-        { label: "Consensus Algorithm", value: "Proof of Authority" },
-        { label: "Block Time", value: "3 seconds" },
-        { label: "Transaction Throughput", value: "10,000+ TPS" },
-        { label: "Network Type", value: "Permissioned" },
+        { label: "Encryption Standard", value: "AES-256 + RSA-4096" },
+        { label: "Authentication", value: "Multi-factor + Biometric" },
+        { label: "Data Protection", value: "End-to-end Encryption" },
+        { label: "Compliance", value: "GDPR, SOC 2, ISO 27001" },
       ],
     },
     {
-      category: "Security",
+      category: "Privacy",
       items: [
-        { label: "Encryption", value: "AES-256 + RSA-4096" },
-        { label: "Key Management", value: "Hardware Security Modules" },
-        { label: "Authentication", value: "Multi-factor + Biometric" },
-        { label: "Compliance", value: "GDPR, SOC 2, ISO 27001" },
+        { label: "Data Minimization", value: "Zero-knowledge Proofs" },
+        { label: "User Control", value: "Self-sovereign Identity" },
+        { label: "Access Management", value: "Granular Permissions" },
+        { label: "Anonymization", value: "Privacy-preserving Verification" },
       ],
     },
     {
@@ -56,8 +56,8 @@ export function TechnologySpecs() {
               <div className="space-y-6">
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    {index === 0 && <Code className="h-5 w-5 text-primary" />}
-                    {index === 1 && <Zap className="h-5 w-5 text-primary" />}
+                    {index === 0 && <Shield className="h-5 w-5 text-primary" />}
+                    {index === 1 && <Lock className="h-5 w-5 text-primary" />}
                     {index === 2 && <Cpu className="h-5 w-5 text-primary" />}
                     {index === 3 && <Globe className="h-5 w-5 text-primary" />}
                   </div>

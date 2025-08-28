@@ -16,7 +16,7 @@ export function OrganizationsBenefits() {
       title: "Prevent Fraud",
       description: "Ensure aid reaches the right people",
       details:
-        "Blockchain-based verification prevents identity fraud and ensures resources reach legitimate beneficiaries every time.",
+        "Advanced verification prevents identity fraud and ensures resources reach legitimate beneficiaries every time.",
       color: "text-secondary",
       bgColor: "bg-secondary/10",
     },
@@ -59,7 +59,7 @@ export function OrganizationsBenefits() {
     {
       icon: Database,
       title: "Secure Storage",
-      description: "Encrypted, decentralized data protection",
+      description: "Encrypted, distributed data protection",
     },
   ]
 
