@@ -37,7 +37,7 @@ export function IndividualsHero() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
-                Get Started
+                <a href='https://verihope.vercel.app/'>Request Demo</a>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button
@@ -46,7 +46,7 @@ export function IndividualsHero() {
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
               >
                 <BookOpen className="mr-2 h-5 w-5" />
-                Learn More
+                <a href='https://verihope-three.vercel.app/about'>Learn More</a>
               </Button>
             </div>
           </div>

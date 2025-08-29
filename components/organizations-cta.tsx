@@ -23,7 +23,7 @@ export function OrganizationsCTA() {
             <div className="space-y-4">
               <Button size="lg" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
                 <Calendar className="mr-2 h-5 w-5" />
-                Request Demo
+                <a href='https://verihope.vercel.app/'>Request Demo</a>
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button
@@ -63,7 +63,7 @@ export function OrganizationsCTA() {
           <div className="bg-card rounded-2xl p-8 border border-border">
             <div className="space-y-6">
               <div className="space-y-2">
-                <h3 className="text-2xl font-bold text-foreground">Get Started Today</h3>
+                <h3 className="text-2xl font-bold text-foreground"><a href='https://verihope.vercel.app/'>Request Demo</a> Today</h3>
                 <p className="text-muted-foreground">
                   Tell us about your organization and we'll get back to you within 24 hours.
                 </p>

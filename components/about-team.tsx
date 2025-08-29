@@ -4,21 +4,21 @@ import { ArrowRight, Linkedin, Mail } from "lucide-react"
 export function AboutTeam() {
   const team = [
     {
-      name: "Sarah Chen",
+      name: "Salma Ayari",
       role: "CEO & Co-Founder",
-      bio: "Former UNHCR technology director with 15 years in humanitarian tech",
+      bio: "MSB Student",
       image: "/professional-woman-ceo-humanitarian-technology.png",
     },
     {
-      name: "Marcus Rodriguez",
+      name: "Ali Cheikh",
       role: "CTO & Co-Founder",
-      bio: "Security expert, former lead engineer at major identity platform",
+      bio: "MedTech Student",
       image: "/professional-man-cto-blockchain-engineer.png",
     },
     {
-      name: "Dr. Amara Okafor",
-      role: "Head of Research",
-      bio: "PhD in Digital Rights, researcher on identity systems for displaced populations",
+      name: "Yosr Jabrouni",
+      role: "Head of Marketing",
+      bio: "MSB Student",
       image: "/professional-woman-researcher-digital-rights-phd.png",
     },
   ]

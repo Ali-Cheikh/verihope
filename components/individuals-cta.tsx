@@ -27,7 +27,7 @@ export function IndividualsCTA() {
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
             >
               <BookOpen className="mr-2 h-5 w-5" />
-              Learn More
+              <a href='https://verihope-three.vercel.app/about'>Learn More</a>
             </Button>
           </div>
 

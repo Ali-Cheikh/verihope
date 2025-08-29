@@ -45,7 +45,7 @@ export function Navigation() {
 
           {/* CTA Button */}
           <div className="hidden lg:flex">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">Request Demo</Button>
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground"><a href='https://verihope.vercel.app/'>Request Demo</a></Button>
           </div>
 
           {/* Mobile menu button */}
@@ -71,7 +71,7 @@ export function Navigation() {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">Request Demo</Button>
+                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"><a href='https://verihope.vercel.app/'>Request Demo</a></Button>
               </div>
             </div>
           </div>
