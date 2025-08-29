@@ -27,7 +27,7 @@ export function ContactHero() {
               </div>
               <div className="space-y-1">
                 <div className="font-semibold text-foreground">Call Us</div>
-                <div className="text-sm text-muted-foreground">+1 (555) 123-4567</div>
+                <div className="text-sm text-muted-foreground">+216 55 123 567</div>
               </div>
             </div>
             <div className="bg-card rounded-xl p-6 border border-border text-center space-y-3">

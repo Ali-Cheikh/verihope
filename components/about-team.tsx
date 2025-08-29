@@ -72,10 +72,6 @@ export function AboutTeam() {
                 world. Join us in building the future of digital identity.
               </p>
             </div>
-            <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground">
-              View Open Positions
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
           </div>
         </div>
       </div>

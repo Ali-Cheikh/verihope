@@ -14,7 +14,7 @@ export function ContactOffices() {
       city: "New York",
       country: "United States",
       address: "456 Tech Avenue, New York, NY 10001, USA",
-      phone: "+1 (555) 123-4567",
+      phone: "+216 55 123 567",
       email: "newyork@verihope.org",
       description: "Technology development and US operations",
     },
